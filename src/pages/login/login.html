@@ -1,22 +1,25 @@
-<ion-header>
-  <ion-navbar>
+<!-- <ion-header>
+  <ion-navbar color="secondary">
     <ion-title>Login</ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content padding>
-  
-        <ion-item>
-          <ion-label floating>Username</ion-label>
-          <ion-input type="text" [(ngModel)]="loginMdl.username"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label floating>Password</ion-label>
-          <ion-input type="password" [(ngModel)]="loginMdl.password"></ion-input>
-        </ion-item>
-        <div></div>
-        <br/>
-        <button ion-button full color="secondary" (click)="Login()">Login </button>
-      
+  <img src="app_logo.jpg">
+    <p>Pep up restaurant's profits</p>
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" [(ngModel)]="loginMdl.username"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="loginMdl.password"></ion-input>
+      </ion-item>
+      <div></div>
+      <br/>
+      <button ion-button full color="secondary" (click)="Login()">Login </button>
+
+      <img src="login.png">
+    
 </ion-content>

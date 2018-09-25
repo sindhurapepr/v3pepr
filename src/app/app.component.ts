@@ -27,7 +27,7 @@ import { LoginPage } from '../pages/login/login';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = DashboardPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -36,7 +36,7 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Org Dashboard', component: HomePage},
+      // { title: 'Org Dashboard', component: HomePage},
       { title: 'My Dashboard', component: DashboardPage },
       { title: 'Menu performance', component: MenuperformancePage },
       { title: 'Menu engineering', component: MenuengineeringPage },
